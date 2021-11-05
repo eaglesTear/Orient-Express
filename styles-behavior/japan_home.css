@@ -1,0 +1,167 @@
+* {
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'Poppins', 'Arial', sans-serif;
+    }
+    /* RESETTING MARGINS HELPS WHEN YOU ACTUALLY WANT SECTIONS TO STICK TOGETHER TIGHTLY */
+    header {
+        position: fixed;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: hsl(200, 90%, 52%);
+    }
+    header img {
+        height: 130px;
+        width: 180px;
+        display: inline;
+        position: relative;
+        bottom: 15px;
+        right: 30px;
+    }
+    h1 {
+        float: left;
+        line-height: 50px;
+        font-family: 'Teko', 'Arial', sans-serif;
+        font-size: 32pt;
+    }
+    .mid_section h2 {
+        padding: 10px;
+        font-size: 30pt;
+    }
+    h2, h3 {
+        font-family: 'Poppins', 'Arial', sans-serif;
+    }
+    .in-block {
+        display: inline-block;
+    }
+    p {
+        font-size: 16pt;
+        line-height: 1.6em;
+    }
+    .icon_style {
+        font-size: 22pt;
+        margin-top: 30px;
+        background-color: ghostwhite;
+        box-shadow: 3px 3px 3px;
+        border: 2px double black;
+        float: right;
+        background: red;
+        cursor: pointer;
+    }
+    .search_style {
+        height: 32px;
+        width: 200px;
+        float: right;
+        margin-top: 30px;
+        margin-left: 8px;
+        margin-right: 28px;
+        border: 2px solid black;
+        box-shadow: 3px 3px 3px;
+    }
+    nav {
+        height: 80px;
+        margin-top: 140px;
+        line-height: 80px;
+        border-top: 3px solid red;
+        border-bottom: 3px solid red;
+        width: 100%;
+        font-family: 'Teko', Arial, sans-serif;
+        background: hsl(200, 90%, 52%);
+    }
+    a:link {
+        text-decoration: none;
+        font-size: 18pt;
+        color: #000000;
+        text-transform: uppercase;
+        padding: 25px;
+        font-size: 26pt;
+    }
+    /* BORDER UPON INSPECTION IS 1.6PX NOT 2PX?!! */
+    
+    a:visited {
+        color: rebeccapurple;
+    }
+    a:hover {
+        background: #fc466b;
+    }
+    a:active {
+        color: deeppink;
+    }
+    .mid_section {
+        background: #000;
+        height: 520px;
+        margin-top: 40px;
+        font-family: 'Ma Shan Zheng', cursive, Arial, sans-serif;
+    }
+    .mid_section h2 {
+        font-family: 'Marck Script', cursive, Arial, sans-serif;
+        color: crimson;
+        font-size: 50pt;
+        text-shadow: 2px 25px 25px;
+    }
+    main {
+        margin-top: 145px;
+    }
+    section {
+        width: 800px;
+        padding: 20px;
+        margin: auto;
+    }
+    .bg1 {
+        background: hsl(60, 66%, 55%);
+    }
+    .bg2 {
+        background: hsl(302, 48%, 71%);
+    }
+    .bg3 {
+        background: hsl(180, 48%, 71%);
+    }
+    figure {
+        position: relative;
+        margin-top: 50px;
+    }
+    figcaption {
+        font-style: italic; 
+    }
+    footer {
+        height: 50px;
+        line-height: 50px;
+        background: hsl(200, 90%, 52%);
+        width: 100%;
+    }
+    footer a:link {
+        color: #fff;
+        padding: 0;
+        font-size: inherit;
+    }
+    footer a:hover {
+        border: none;
+    }
+    img {
+        text-align: center;
+        padding: 20px;
+        width: 450px;
+        height: 325px;
+        float: left;
+        margin-left: 42px;
+    }
+    .no-float {
+        text-align: center;
+        width: 600px;
+        height: 400px;
+        float: none;
+        filter: brightness(90%);
+        border-radius: 50px;
+    }
+    figcaption {
+        position: relative;
+        color: #fff;
+        bottom: 50px;
+    }

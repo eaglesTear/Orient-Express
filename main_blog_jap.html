@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Teko&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles-behavior/main_blog.css">
+    <script src="styles-behavior/main_blog.js"></script>
+</head>
+
+<body>
+
+    <header id="#top">
+        <img src="images_vids_jp/jp_flag.jpg" alt="Small image of the Japanese flag with a white background and a red circle in the middle" />
+        <h1>Another World: Life in Japan 日本</h1>
+        <input type="search" placeholder="Search..." class="search_style" />
+        <i class="material-icons icon_style">search</i>
+    </header>
+
+    <nav>
+        <a href="japan_home.html" alt="Link to home page">Home</a>
+        <a href="#" alt="Link to ">Articles</a>
+        <a href="#" alt="Link to ">About</a>
+        <a href="#" alt="Link to ">Contact</a>
+    </nav>
+
+    <div class="grid-container">
+       
+        <main class="text-title">
+            <article>
+                <h3>My Blog</h3>
+                <p id="drop-cap"> Nulla mattis arcu vitae diam aliquam, commodo vulputate lorem fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut massa est, auctor sed luctus vel, hendrerit id diam. Morbi elit ex, placerat sit amet tellus congue, aliquet iaculis mauris. Etiam enim arcu, congue vitae elementum ac, rhoncus eu erat. Duis at ligula posuere, varius nibh et, faucibus arcu. Suspendisse vulputate ullamcorper magna luctus rhoncus. Ut ante velit, sodales eu ante et, finibus viverra ligula. Vestibulum non sollicitudin metus. Mauris non dui nec eros malesuada suscipit eu ac ante. Pellentesque volutpat massa urna, id dictum orci ornare sed. Sed congue ante urna, a interdum quam ullamcorper eget. Integer maximus libero iaculis eros efficitur, a aliquet risus consectetur. Sed ac bibendum orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce in ullamcorper nunc.</p>
+                <h3>My Children's Class Festival</h3>
+                <p>
+                    Ut sed risus non felis dignissim iaculis ac sit amet massa. Praesent a tellus non tortor tincidunt rhoncus vulputate eget tellus. Integer nec erat sapien. Donec sit amet facilisis nibh. In gravida eros nisi, eget lobortis libero interdum vitae. Phasellus consequat neque lorem, eget maximus turpis auctor at. Nulla quis enim cursus, tempus erat vitae, laoreet neque. Sed imperdiet, ex sit amet efficitur consequat, dolor quam eleifend velit, quis interdum urna justo vel nisl. Donec sed ante a risus sodales dignissim eget vitae mauris. Fusce vel commodo odio. Donec eget tortor fringilla, sodales turpis at, interdum justo. Suspendisse quis quam arcu. Etiam massa ipsum, aliquam ac aliquam scelerisque, imperdiet ut velit. Sed imperdiet, ex sit amet efficitur consequat, dolor quam eleifend velit, quis interdum urna justo vel nisl.</p>
+            </article>
+        </main>
+
+        <aside class="asideleft">
+            <h3>Think you know Japan? 10 common myths debunked...</h3>
+            <ol>
+                <li>If you can't use chopsticks you'll starve.</li> <button onclick="showListAnswer1();">Toggle answer</button>
+                <p id="answer1">False. Ask for a fork.<br />Yes. They have them.</p>
+                <li>Japan is massively built up and overcrowded.</li>
+                <button onclick="showListAnswer2();">Toggle answer</button>
+                <p id="answer2">True and false. Only the big cities are crowded. Most of Japan is still predominantly rural.</p>
+                <li>Japan is a hi-tech nation.</li>
+                <button onclick="showListAnswer3();">Toggle answer</button>
+                <p id="answer3">Sort of. I mean, they still use fax machines.</p>
+                <li>There is no crime in Japan.</li>
+                <button onclick="showListAnswer4();">Toggle answer</button>
+                <p id="answer4">On the surface? True. Most crime in Japan is organized and invisible. The streets are safe - day and night.</p>
+                <li>Japanese people eat only fish.</li>
+                <button onclick="showListAnswer5();">Toggle answer</button>
+                <p id="answer5">False. They love their fish, but there is a plethora of other foods that are delicious. Ramen, curry, okonomiyaki...</p>
+                <li>Japan is prohibitively expensive.</li>
+                <button onclick="showListAnswer6();">Toggle answer</button>
+                <p id="answer6">False. It isn't cheap compared to say, Thailand and Vietnam, but you'll be surprised. Trust me.</p>
+                <li>You can't get around without knowing Japanese.</li>
+                <button onclick="showListAnswer7();">Toggle answer</button>
+                <p id="answer7">False. The people are helpful, places are safe and with the Tokyo Olympics imminent, English signage is even more present.</p>
+                <li>It's easy to offend the people.</li>
+                <button onclick="showListAnswer8();">Toggle answer</button>
+                <p id="answer8">Mostly false, but some truth. Learn the most fuundamental things - take your shoes off before entering someone's home or a restaurant, for example.</p>
+                <li>Credit cards are accepted everywhere.</li>
+                <button onclick="showListAnswer9();">Toggle answer</button>
+                <p id="answer9">They are more prominent now than before, but get out of the bigger cities and chain stores and you'll find cash is still king.<br />Carry some.</p>
+                <li>The best time to visit is cherry blossom season.</li>
+                <button onclick="showListAnswer10();">Toggle answer</button>
+                <p id="answer10">False. No, really.
+                    <br />I won't lie, spring is magical. But be warned - tourists flock in their millions because they think the exact same thing.
+                    <br />Just know that Japan is amazing in any season.
+                </p>
+            </ol>
+        </aside>
+
+        <aside class="asideright">
+            <h3>Highlights</h3>
+            <figure>
+                <img src="images_vids_jp/remembrance.jpg" alt="Schoolchildren in front of the Hiroshima Memorial" />
+                <figcaption>
+                    Schoolchildren learning about the horror of Hiroshima.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images_vids_jp/iga-temple.JPG" alt="Pointy temple in Iga prefecture, with cherry blossom tree in foreground" />
+                <figcaption>
+                    Iga is home to the ninja, and this beautiful construct.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images_vids_jp/okayama-castle.JPG" alt="Okayama Castle, viewed from across a river" />
+                <figcaption>
+                    Okayama Castle stands tall. Nearby, you can take a swan boat ride.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images_vids_jp/miyajima-shrine.jpg" alt="Istukushima shrine, Miyajima, standing in the low tide" />
+                <figcaption>
+                    Itsukushima shrine in Miyajima, an incredibly beautiful and spiritual place for me.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images_vids_jp/js-500.JPG" alt="Image of the JS-500 bullet train at rest, with its pencil-point front end" />
+                <figcaption>
+                    The JS-500 is perhaps the sleekest and best-looking Shinkansen ('Super express train', or 'bullet train' in the West) .
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images_vids_jp/osaka-view.jpg" alt="View from high of Osaka and its skyline" />
+                <figcaption>
+                    Osaka was my home for 4 years, and one of my favourite cities to this day. A very special place.
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images_vids_jp/shibuya.JPG" alt="The famous Shibuya crossing with shops in the background, busy with people" />
+                <figcaption>
+                    Shibuya is one of the liveliest places in Tokyo. Here, crowds gather at its famous crosswalk.
+                </figcaption>
+            </figure>
+        </aside>
+
+        <div class="video1">
+            <video src="images_vids_jp/traditional.mp4" controls></video>
+        </div>
+        <div class="text1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec accumsan turpis. Quisque elementum massa nisi, non volutpat sapien malesuada a. Nulla eget arcu vel purus ornare sagittis eget quis dui.</p>
+        </div>
+        <div class="video2">
+            <video src="images_vids_jp/contemporary.mp4" controls></video>
+        </div>
+        <div class="text2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec accumsan turpis. Quisque elementum massa nisi, non volutpat sapien malesuada a. Nulla eget arcu vel purus ornare sagittis eget quis dui.</p>
+        </div>
+        <div class="video3"><video src="images_vids_jp/song.mp4" controls></video>
+        </div>
+        <div class="text3">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec accumsan turpis. Quisque elementum massa nisi, non volutpat sapien malesuada a. Nulla eget arcu vel purus ornare sagittis eget quis dui.</p>
+        </div>
+        
+    </div>
+
+    <footer>
+        Copyright &copy; Ryan Hadley &#x264F;
+        <script>
+            document.write(new Date().getFullYear());
+            document.write(' Last modified ' + document.lastModified);
+        </script>
+        |
+        <a href="#top">Back to Top</a>
+    </footer>
+
+</body>
+
+</html>
